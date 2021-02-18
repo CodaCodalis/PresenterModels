@@ -5,8 +5,7 @@ difference(){
     translate([9,0,0])
         rotate([0,90,0])cylinder(h=12,r=0.7);
     translate([9,0,0])
-        rotate([0,90,0])cylinder(h=12,r=0.7);translate([6,3,0])
-        cylinder(h=5,r=1.4);
+        rotate([0,90,0])cylinder(h=12,r=0.7);
     translate([6,2,-4])
         cylinder(h=4,r=1.4);
     translate([6,-2,-4])
