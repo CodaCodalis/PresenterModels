@@ -152,3 +152,9 @@ sphere(r=20);
 
 translate([600,200,20])
 sphere(r=20);
+
+//Logo
+translate([350,100,90])
+//color([1,0,0])
+rotate([0,0,90])resize([100,100,5])
+import("/home/larah/Dokumente/Entwicklung/PresenterModels/scad/logo.stl");
