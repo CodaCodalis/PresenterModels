@@ -1,5 +1,11 @@
 //Grundplatte (GP)
+difference(){
 cube([600,200,10]);
+translate([100,20,-1])
+cube([400,160,12]);
+}
+translate([100,240,0])
+cube([400,160,10]);
 
 //Deckplatte (DP)
 translate([0,0,80])
