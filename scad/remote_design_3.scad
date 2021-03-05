@@ -43,9 +43,11 @@ translate([240,190,-10])
 cylinder(h=30,r=30);
 translate([240,410,-10])
 cylinder(h=30,r=30);
+
 translate([650,300,5])
 rotate([0,0,90])resize([400,400,20])
 import("/home/larah/Entwicklung/PresenterModels/stl/logo.stl");  
+
 }
 /*
 //linker Button
@@ -335,7 +337,7 @@ sphere(r=20);
 translate([-1200,600,90])
 sphere(r=20);
 
-translate([-1200,600,90])
+translate([-1200,600,20])
 sphere(r=20);
 
 /*
